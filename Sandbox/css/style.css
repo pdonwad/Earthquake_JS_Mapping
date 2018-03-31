@@ -1,0 +1,62 @@
+/* remove default margin and padding from body */
+body {
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* set map, body, and html to 100% of the screen size */
+  #map,
+  body,
+  html {
+    height: 95%;
+    margin:5px;
+  }
+  
+.info{
+  width: 50;
+  height:135;
+  opacity: 0.9
+}
+li{
+  width:50px;
+  height:25px;
+  text-align: center
+}
+
+.jumbotron{
+
+  background-color: #000033;
+  font-family: "Times New Roman", Times, serif;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 2px;
+  max-height:115px;
+  padding: 5px;
+  
+}
+
+.leaflet-bottom.leaflet-left{
+  width: 95%;
+  height:25%;
+}
+.leaflet-control-container .leaflet-timeline-controls{
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.Feature{
+  font-size:15px;
+  background-color: #000033;
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  color: #FFF;
+  margin:0px;
+  padding-left: 15px;
+}
+
+.footer-copyright{
+  background-color:  #000033; 
+  color: #FFF;
+}
